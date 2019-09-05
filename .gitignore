@@ -1,0 +1,94 @@
+# Compiled Object files, Static & Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+
+# Folders
+_obj
+_test
+
+
+# Architecture specific extentions
+*.[568vq]
+[568vq].out
+
+*.cgo1.go
+*.cgo2.c
+_cgo_defun.c
+_cgo_gotypes.go
+_cgo_export.*
+
+_testmain.go
+
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+
+# Test binary, build with `go test -c`
+*.test
+
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+
+# Golang / Intellij
+*.iml
+
+
+# Sublime Text
+.sublime-workspace
+
+
+# VS Code
+.vscode/settings.json
+
+
+# Directory-based project format:
+.idea/
+.idea/workspace.xml
+**/.idea/workspace.xml
+
+
+# mac hidden files
+DS_Store
+
+#Node Module for JS
+node_modules/
+
+
+
+
+# Other ...
+*.log
+.DS_Store
+doc
+tmp
+pkg
+*.gem
+*.pid
+coverage
+coverage.data
+*.pbxuser
+*.mode1v3
+.svn
+profile
+.console_history
+.sass-cache/*
+.rake_tasks~
+*.log.lck
+solr/
+.jhw-cache/
+jhw.*
+node_modules/
+dist/
+generated/
+.vendor/
+bin/*
+gin-bin
